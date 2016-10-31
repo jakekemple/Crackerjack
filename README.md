@@ -9,10 +9,12 @@ This project was started for CSC 596: Special Readings, A research credit course
 
 
 ### How to run:
-- From the crackerjack project directory run
-		`python crackerjack`
-  in a terminal window
-  
+- From the crackerjack project directory, run
+		`python crackerjack [character set] [chunk size]`
+  in a terminal window (character set is a string, chunk size is an integer).
+  Note: If you have both Python 2 & 3 installed, run with `python3` instead
+- For [character set], this is where you will put the string of characters you want to be ran through the possibility checker. All possible combinations of characters will be built from the character set. 
+- For [chunk size], choose an integer to designate a max size the possibility checker will run up to on [character set], PER PROCESS. For example, if the process is checking 'abc' with a set [chunk size] of 2, the possibilty will show all combinations of 'abc' as 2 character strings.
   
 ### External Resources & Documentation:
 
