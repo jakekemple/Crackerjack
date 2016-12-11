@@ -15,11 +15,11 @@ Crackerjack is a simple multi-processing bruteforce script. Given character set 
 
 ### How to run:
 - From the crackerjack project directory, run
-		`python crackerjack [character set] [max length]`
+		`python crackerjack.py [charset] [maxlength]`
   in a terminal window (charset and maxlength are both integers).
   Note: If you have both Python 2 & 3 installed, run with `python3` instead
 - For [charset], select an integer between 1 and 6. See "Selecting a charset" section below. 
-- For [maxlength], choose an integer to designate the max size of password or key you wish to generate for. For example, if you select 6, the script will try all possible combinations of 6 character keys from the charset.
+- For [maxlength], choose an integer to designate the max size of words you wish to generate up to. For example, if you select 6, the script will generate all possible combinations of 6 character words from the charset.
 
 ### Selecting a charset:
 The [charset] argument determines which group of characters you want to brute-force against. For example choosing 3 will try all possible combinations of the alphabet (uppercase and lowercase) and digits.
@@ -85,4 +85,5 @@ Computation Times for password of length 6:
 ### External Resources & Documentation:
 
 1. [Multiprocessing Library](https://docs.python.org/3/library/multiprocessing.html)
+2. [Password Recovery Speeds](http://www.lockdown.co.uk/?pg=combi&s=articles)
 
