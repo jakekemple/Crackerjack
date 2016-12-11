@@ -23,16 +23,24 @@ The [charset] argument determines which group of characters you want to brute-fo
 Charset Key:
  
  - 1: digits
-```0123456789```
+ ```
+ 0123456789
+ ```
  
  - 2: letters (lower) and digits
-```0123456789abcdefghijklmnopqrstuvwxyx```
+```
+0123456789abcdefghijklmnopqrstuvwxyx
+```
 
  - 3: letters (upper and lower)
-```ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyx```
+```
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyx
+```
 
  - 4: letters (upper and lower) and digits
-```0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyx```
+```
+0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyx
+```
 
  - 5: letters (upper and lower) and common special characters
  ```
