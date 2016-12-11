@@ -1,7 +1,11 @@
 # Crackerjack: Multiprocessing brute-force application
 ## Written with multiprocessing library in python 3 
 
-This project was started for CSC 596: Special Readings, s research credit course at Missouri State University
+This project was started for CSC 596: Special Readings, a research credit course at Missouri State University
+
+## What is it?
+
+Crackerjack is a simple multi-processing bruteforce script. Given character set and max length parameters, the script will try all combinations of the character set of size max length and smaller, all while utilizing all machine cores. The script only generates all possible combinations of the given parameters. It does NOT run those generated combinations against a hash or password test. That can be implemented based on the context you wish to use Crackerjack
 
 
 ### Get Started 
