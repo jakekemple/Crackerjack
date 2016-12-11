@@ -1,7 +1,7 @@
 # Crackerjack: Multiprocessing brute-force application
 ## Written with multiprocessing library in python 3 
 
-This project was started for CSC 596: Special Readings, A research credit course at Missouri State University
+This project was started for CSC 596: Special Readings, s research credit course at Missouri State University
 
 
 ### Get Started 
@@ -52,7 +52,6 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyx!#$%&'()*+,-./:;<=>?@[\]^_`{
 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyx!#$%&'()*+,-./:;<=>?@[\]^_{|}`~
 ```
 
-* Note: All times are for class D attacks (10 million attempts per second)
 
 Computation Times for password of length 5:
 
@@ -75,6 +74,8 @@ Computation Times for password of length 6:
 | 4             | 1.5 hours     |
 | 5             | ?             |
 | 6             | 22 hours      |
+
+* Note: All times are for class D attacks (10 million attempts per second)
 
   
 ### External Resources & Documentation:
