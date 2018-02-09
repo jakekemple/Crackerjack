@@ -76,15 +76,15 @@ if __name__ == "__main__":
     if charset == 1:
         charset = "0123456789"
     elif charset == 2:
-        charset = "0123456789abcdefghijklmnopqrstuvwxyx"
+        charset = "0123456789abcdefghijklmnopqrstuvwxyz"
     elif charset == 3:
-        charset = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyx"
+        charset = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
     elif charset == 4:
-        charset = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyx"
+        charset = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
     elif charset == 5:
-        charset = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyx!#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
+        charset = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
     elif charset == 6:
-        charset = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyx!#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
+        charset = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
     else:
         print("Please choose and integer between 1 and 6")
         quit()

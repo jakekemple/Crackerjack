@@ -33,27 +33,27 @@ Charset Key:
  
 2 (lowercase letters and digits):
 ```
-0123456789abcdefghijklmnopqrstuvwxyx
+0123456789abcdefghijklmnopqrstuvwxyz
 ```
 
 3 (upper and lowercase letters):
 ```
-ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyx
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
 ```
 
 4 (upper and lowercase letters and digits):
 ```
-0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyx
+0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
 ```
 
 5 (upper and lowercase letters and common special characters):
 ```
-ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyx!#$%&'()*+,-./:;<=>?@[\]^_`{|}~
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!#$%&'()*+,-./:;<=>?@[\]^_`{|}~
 ```
 
 6 (upper and lowercase letters, digits, and common special characters):
 ```
-0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyx!#$%&'()*+,-./:;<=>?@[\]^_{|}`~
+0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!#$%&'()*+,-./:;<=>?@[\]^_{|}`~
 ```
 
 
