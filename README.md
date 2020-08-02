@@ -85,5 +85,4 @@ Computation Times for password of length 6:
 ### External Resources & Documentation:
 
 1. [Multiprocessing Library](https://docs.python.org/3/library/multiprocessing.html)
-2. [Password Recovery Speeds](http://www.lockdown.co.uk/?pg=combi&s=articles)
-
+2. [Password Recovery Speeds](https://web.archive.org/web/20161016135654/http://www.lockdown.co.uk/?pg=combi&s=articles)
