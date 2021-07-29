@@ -7,7 +7,7 @@ import multiprocessing as mp
 from itertools import product
 
 # generator is ran by the individual processes
-def generator(first_char, wordtail_length, length):
+def generator(charset, first_char, wordtail_length, length):
     # Generate all strings of length `length` starting with `first_char`.
     # Once length > wordtail_length, only the wordtail_length characters
     # need to be generated.
@@ -50,7 +50,7 @@ def bruteforce(pool, chunk_size=1000000):
     # short strings: generate words from size 1 to short words max
     max_short_len = min(wordtail_length, maxlength)
     for length in range(1, max_short_len + 1):
-        pool.apply_async(generator, args=("", wordtail_length, length),
+        pool.apply_async(generator, args=(charset, "", wordtail_length, length),
                          callback=count_completed)
     # longer strings: generate words from short words max to maxlength
     for length in range(max_short_len + 1, maxlength + 1):
@@ -59,7 +59,7 @@ def bruteforce(pool, chunk_size=1000000):
             first_char = "".join(t) # Remove punctuation
 
             # Run generator function for on each process with args
-            pool.apply_async(generator, args=(first_char, wordtail_length, length),
+            pool.apply_async(generator, args=(charset, first_char, wordtail_length, length),
                              callback=count_completed)
 
 
